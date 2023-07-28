@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-pbl"
+version = "0.1.0"
+description = ""
+authors = ["Manuel2u <edodoo011@st.ug.edu.gh>"]
+readme = "README.md"
+packages = [{include = "django_pbl"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
