@@ -9,13 +9,13 @@
 <h1 align="center">Blogify</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/manuel2u/blogify-django?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/manuel2u/Blogify-django?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/manuel2u/blogify-django?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/manuel2u/Blogify-django?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/manuel2u/blogify-django?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/manuel2u/Blogify-django?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/manuel2u/blogify-django?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/manuel2u/Blogify-django?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/django-pbl?color=56BEB8" /> -->
 
@@ -71,10 +71,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/manuel2u/blogify-django
+$ git clone https://github.com/manuel2u/Blogify-django
 
 # Access
-$ cd blogify-django
+$ cd Blogify-django
 
 # Create a Virtual Environment using Poetry
 
