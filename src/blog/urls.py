@@ -5,11 +5,11 @@ from . import views
 from auth_app import views as auth_views
 
 urlpatterns = [
-    path("", views.home_view, name="home"),
+    path("", views.homepage_view, name="homepage"),
     path('admin/', admin.site.urls),
     path("signup/", auth_views.signup, name="signup"),
     path("login/", auth_views.login, name="login"),
-    path("settings/", auth_views.settings, name="settings"),
+    path("settings/", views.settings, name="settings"),
 ]
 
 # if settings.DEBUG:
