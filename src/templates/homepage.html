@@ -1,42 +1,38 @@
+{# djlint:off H021 #}
 {% extends "base.html" %}
 {% block title %}Blogify-Home{% endblock %}
 {% block content %}
     {% include "components/Navbar.html" %}
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 relative z-0">
         <div class="mx-auto max-w-7xl  lg:flex  lg:gap-x-16 lg:px-5">
-            <div class="flex-1">
-            {% include "components/SideNav.html" %}
-        </div>
-            <main class="py-20 -ml-8 flex-2">
-                <header>
-                    <nav class="flex overflow-x-auto py-4">
-                        <ul role="list"
-                            class="flex min-w-full flex-none gap-x-6 px-4 text-md  leading-6  sm:px-6 lg:px-1">
-                            <li>
-                                <a href="#" class="font-bold">Relevant</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-gray-500">Latest</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-gray-500">Top</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-                <div class="flex flex-col lg:px-1">
-                  {% include "components/Blog.html" %}
-                  {% include "components/Blog.html" %}
-                  {% include "components/Blog.html" %}
-                  {% include "components/Blog.html" %}
-                  {% include "components/Blog.html" %}
-                </div>
-               
-            </main>
-            <div class="flex-1">
-                {% include "components/Others.html" %}
+            <div class="flex-1">{% include "components/SideNav.html" %}</div>
+            <main style="flex: 2.5;" class="py-20 -ml-10 mr-4">
+            <header>
+                <nav class="flex overflow-x-auto py-4">
+                    <ul role="list"
+                        class="flex min-w-full flex-none gap-x-6 px-4 text-md  leading-6  sm:px-6 lg:px-1">
+                        <li>
+                            <a href="#" class="font-bold">Relevant</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">Latest</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">Top</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="flex flex-col lg:px-1">
+                {% include "components/Blog.html" %}
+                {% include "components/Blog.html" %}
+                {% include "components/Blog.html" %}
+                {% include "components/Blog.html" %}
+                {% include "components/Blog.html" %}
             </div>
-        </div>
+        </main>
+        <div class="flex-1 -ml-10 pr-10">{% include "components/Others.html" %}</div>
     </div>
-    {% include "components/Footer.html" %}
+</div>
+{% include "components/Footer.html" %}
 {% endblock %}
